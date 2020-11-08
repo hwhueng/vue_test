@@ -37,5 +37,24 @@ export default [{
       type: 'menu',
       active: false
     }
-  }]
+  },
+  {
+    name: 'FormCheckbox',
+    meta: {
+      index: `/Home/FormCheckbox`,
+      title: '切换按钮',
+      type: 'menu',
+      active: false
+    }
+  },
+  {
+    name: 'PersonalDetail',
+    meta: {
+      index: `/Home/PersonalDetail`,
+      title: '弹窗',
+      type: 'menu',
+      active: false
+    }
+  }
+]
 }]
