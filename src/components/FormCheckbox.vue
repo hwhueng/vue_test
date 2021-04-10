@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-form 
+    <el-form :inline="true"
         label-suffix=":" 
         :model="form"
         label-width="80px"
@@ -18,7 +18,8 @@
         <el-form-item>
             <el-button type="primary" size="small" @click="saveInfo">保存</el-button>
         </el-form-item>
-    </el-form>   
+    </el-form> 
+
     <el-dialog 
         title="详细配置"
         :visible.sync="modelVisible">
@@ -53,13 +54,13 @@
 <script>
 export default {
   name: 'FormCheckbox',
-  data () {
-    return {
-        form: {
-            name: "",
-            item: false
-        },
-        modelVisible: false
+    data () {
+        return {
+            form: {
+                name: "",
+                item: false
+            },
+            modelVisible: false
     }
   },
     methods: {

@@ -39,6 +39,24 @@ export default [{
     }
   },
   {
+    name: 'TableViewer',
+    meta: {
+      index: `/Home/TableViewer`,
+      title: '表格',
+      type: 'menu',
+      active: false
+    }
+  },
+  {
+    name: 'Tabs',
+    meta: {
+      index: `/Home/Tabs`,
+      title: '标签',
+      type: 'menu',
+      active: false
+    }
+  },
+  {
     name: 'FormCheckbox',
     meta: {
       index: `/Home/FormCheckbox`,
@@ -52,6 +70,24 @@ export default [{
     meta: {
       index: `/Home/PersonalDetail`,
       title: '弹窗',
+      type: 'menu',
+      active: false
+    }
+  },
+  {
+    name: 'SearchEmpByName',
+    meta: {
+      index: `/Home/SearchEmpByName`,
+      title: '名字搜索',
+      type: 'menu',
+      active: false
+    }
+  },
+  {
+    name: 'OrgTree',
+    meta: {
+      index: `/Home/OrgTree`,
+      title: '部门树',
       type: 'menu',
       active: false
     }
